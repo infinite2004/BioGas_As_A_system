@@ -1,4 +1,4 @@
-import { Project, getOverallStatus } from './models';
+import { Project } from './models';
 
 const STORAGE_KEY = 'biomethane_projects';
 const ONBOARDING_KEY = 'biomethane_onboarding_dismissed';

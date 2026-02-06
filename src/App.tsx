@@ -12,16 +12,13 @@ import {
   Mail,
   Trash2,
   Info,
-  ChevronRight,
   TrendingDown,
   Building2,
-  Filter,
   ArrowUpDown,
-  MoreVertical,
   Calendar
 } from 'lucide-react';
 import clsx from 'clsx';
-import { Project, StageStatus, FeedstockType, STAGE_NAMES, getOverallStatus, getWhoMustActNext, getNextActionSuggestion, StageKey, StageOwner } from './lib/models';
+import { Project, StageStatus, FeedstockType, STAGE_NAMES, getOverallStatus, getWhoMustActNext, getNextActionSuggestion, StageKey } from './lib/models';
 import { loadProjects, saveProjects, isOnboardingDismissed, setOnboardingDismissed } from './lib/storage';
 import './styles/App.css';
 
